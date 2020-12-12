@@ -1,2 +1,5 @@
+from api.resources import ISFFTResource
+
+
 def initialize_routes(api):
-    pass
+    api.add_resource(ISFFTResource, '/')
